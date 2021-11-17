@@ -1,0 +1,563 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav ul li{
+    display: inline-block;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+header nav ul li a{
+    color: gray;
+    text-decoration: none;
+    padding-right: 20px; 
+    
+}
+.first {
+    padding-left: 200px;
+}
+header nav ul li a:hover{
+    color: #F19F57;
+}
+header nav ul img{
+    width: 110px;
+    margin-left: 100px;
+}
+body{
+    background-color: #F2DCC8;
+}
+header.item {
+    width: 100%;
+    height: 150px;
+    background-color: #F19F57;
+}
+header.item p{
+    color: white;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 30px;
+}
+ div.item1{
+    background-color: white;
+    width: 400px;
+    height: 450px;
+    border-radius:5px ;
+    margin-left: 150px;
+    float: left;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+article{
+    background-color: #CC9036;
+}
+
+article div.item1 p {
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+article div.item1 img{
+    width:300px;
+    padding-left: 10px; 
+}
+article div.layout1{
+    float: left;
+    margin-top: 20px;
+}
+article div.item2{
+    background-color: white;
+    border-radius: 5px;
+    width: 800px;
+    height: 450px;
+    margin-left: 20px;
+    float: right;  
+    margin-right: 50px;
+}
+article div.item2 img{
+    width: 60%;
+    float:right;
+    padding-bottom: 20px;
+}
+article div.item2 p{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+article div.item2 p:nth-child(1){
+    font-weight: bold;
+    
+}
+article div.item2 p:nth-child(2){
+    color: #cc9036;
+    font-size: 20px;
+}
+article div.item2 p:nth-child(3){
+    font-size: 30px;
+}
+
+
+article div table tr th{
+    color: #888888;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+}
+#abcd{
+    
+    padding-top: 10px;
+    padding-left: 17px;
+}
+
+article div table tr th:nth-child(2){
+
+    padding-left: 13px;
+}
+article div table tr td:nth-child(1){
+    padding-left: 10px;
+}
+
+article div table tr td:nth-child(2){
+    padding-left: 30px;
+    
+}
+article div table tr td{
+    color: #111111;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+}
+
+article div.item3{
+    background-color: white;
+    width: 400px;
+    height: 450px;
+    border-radius:5px ;
+    margin-left: 150px;
+    float: left;
+}
+article div.item3 p{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+article div.item3 h3{
+   padding-top: 40px;
+   padding-left: 70px;
+   font-size: 14px;
+   border-bottom: 1px dotted pink ;
+   padding-bottom: 40px;
+}
+.item3 .time{
+    width: 50px;
+    margin-left: 15px;
+    float: left;
+  
+    
+}
+.item3 .time .month{
+    width: 100%;
+    height: 15px;
+    background: #CC9036;
+    font-size: 9px;
+    line-height: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+.item3 .time .day{
+    width: 35;
+    height: 35px;
+    background: #EEEEEE;
+    border: 1px solid #DDDDDD;
+    font-size: 18px;
+    line-height: 35px;
+    color: #131313;
+    text-align: center;   
+}
+article div.item3 p.para{
+    font-size: 14px;
+    color: #333333;
+    font-weight: bold;
+    letter-spacing: 0;
+    text-align: left;
+    line-height: 16px;
+    padding-left: 80px;
+    padding-bottom: 40px;
+    border-bottom:  1px dotted pink;
+}
+article div.item4{
+    background-color: white;
+    border-radius: 5px;
+    width: 800px;
+    height: 450px;
+    float: right;  
+   margin-right: 87px; 
+}
+article div.item4 p{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 15px;
+    font-weight: bold;
+
+}
+article  div.item4 img{
+    width: 400px;
+    float: left;
+    padding-left: 15px;
+}
+article div.item4 ul li{
+    list-style: none;
+    
+}
+article div.item4 ul li a:hover{
+    color: #F19F57;
+    float: right;
+    text-decoration: none; 
+}
+article div.item4 ul li a{
+    float: right;
+    text-decoration: none;
+    font-size: 15px;
+    padding-right: 14px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-bottom: 1px dotted pink ;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+
+article div.item4 ul li:nth-child(1) a{
+    padding-right: 122px;
+    
+}
+article div.item4 ul li:nth-child(2) a{
+    padding-right: 18px;
+}
+article div.item4 ul li:nth-child(3) a{
+    padding-right: 104px;
+}
+#abc{
+    color:#CC9036;;
+    border: none;
+    font-family: Arial;
+    padding-top:5px;
+    padding-right: 270px;
+}
+article div.item5{
+    background-color: white;
+    width: 400px;
+    height: 450px;
+    border-radius:5px ;
+    margin-left: 150px;
+    float: left;
+    margin-top: 10px;
+}
+article div.item5 p{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 15px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    
+}
+article div.item5 img{
+    width: 370px;
+    margin-left: 15px;
+}
+article div.item5 ul li{
+    list-style: none;
+}
+article div.item5 ul li a{
+    text-decoration: none;
+}
+article div.item5 ul li a:hover{
+    color: #F19F57;
+}
+article div.item6{
+    background-color: white;
+    width: 400px;
+    height: 450px;
+    border-radius:5px ;
+    margin-left: 20px;
+    float: left;
+    margin-top: 10px;
+}
+article div.item6 p{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+article div.item6 img{
+    width: 370px;
+    margin-left: 15px;
+    margin-top:10px ;
+}
+article div.item6 ul li{
+    list-style: none;
+}
+article div.item6 ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 10px;
+    border-bottom:  1px dotted pink;
+}
+article div.item6 ul li a:hover{
+    color: #CC9036;
+}
+article div.item6 li.more{
+    list-style: none;
+    padding-top: 15px;
+}
+article div.item6 li.more a{
+    color: #CC9036;
+    text-decoration: none;
+    padding-left: 40px;  
+}
+article div.item7{
+    background-color: white;
+    width: 380px;
+    height: 250px;
+    border-radius:5px ;
+    margin-left: 20px;
+    float: left;
+    margin-top: 10px;
+}
+article div.item7 p{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+article div.item7 ul li{
+    list-style: none;
+    padding-bottom: 10px;
+   padding-top: 10px;
+    border-bottom: 1px dotted pink;
+}
+article div.item7 ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+}
+article div.item7 ul li a:hover{
+    color: #CC9036;
+}
+article div.item8{
+    background-color: white;
+    width: 380px;
+    height: 190px;
+    border-radius:5px ;
+    margin-left: 20px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+article div.item8 p{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+article div.item8 img{
+    margin-left: 30px;
+}
+
+footer div.recommend{
+    width: 27%;
+    padding-left: 150px;
+    float: left;
+}
+footer div.recommend li{ 
+    list-style: none;
+}
+footer div.recommend li a{
+    text-decoration: none;
+}
+footer div.information{
+    float: left;
+    width: 20%;
+    padding-top:45px ;
+    padding-left: 30px;
+    
+}
+footer div.information p{
+    font-weight: bold;
+    color: white;
+    padding-left: 20px;
+   
+}
+footer div.information ul li{
+    color: #CC9036;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+footer div.information ul li a{
+    text-decoration: none;
+   
+}
+footer div.information ul li a:hover{
+    color: #CC9036;
+}
+footer div.property{
+    width: 20%;
+    float: left;
+    padding-top: 45px;
+    padding-left: 120px;
+}
+footer div.property p{
+    font-weight: bold;
+    color: white;
+    padding-left: 20px;
+}
+footer div.property ul li{
+    color: #CC9036;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+footer div.property ul li a{
+    text-decoration: none;
+}
+footer div.property ul li a:hover{
+    color: #CC9036
+}
+/*Mobile: width < 740px */
+@media only screen and (max-width : 740px){
+    
+    header nav ul li a{
+        display: none;
+    }
+    article div.item1{
+        width:90%;
+        margin-left :20px;
+    }
+    article div.item2{
+        width: 90%;
+        margin-right: 20px;
+    }
+    article div.item2 img{
+        display: none;
+    }
+    
+    article div.item3{
+        width: 90%;
+        margin-top: 10px;
+        margin-left: 20px;
+        
+    }
+    article div.item4{
+        width: 90%;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+    article div.item4 img{
+        display: none;
+    }
+   
+    article div.item5{
+        width: 90%;
+        margin-left: 20px;
+    }
+    article div.item5 img{
+        width: 90%;
+    }
+    article div.item6{
+        width: 90%;
+    }
+    article div.item6 img{
+        width: 90%;
+    }
+    article div.item7{
+        width: 90%;
+    }
+    article div.item8{
+        width: 90%;
+    }
+    footer{
+        width: 100%;
+    }
+    footer div.recommend{
+        width: 80%;
+       text-align: center;
+       padding-left: 40px;
+    }
+    footer div.information{
+        width: 40%;
+        float: left;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    footer div.property{
+        width: 40%;
+        float:right;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+} 
+/*Ipad : width >=740px and width < 1024px */
+@media only screen and (min-width: 740px) and (max-width: 1024px){
+    header nav ul img{
+       margin-left: 10px;   
+    }
+    .first{
+        padding-left: 60px;
+    }
+    article div.item1{
+        margin-left: 20px;
+        width: 35%;
+        float: left;
+    }
+    article div.item2{
+        width: 60%;
+        float: right;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+    article div.item3{
+        width: 35%;
+        margin-left: 20px;
+    }
+    article div.item4{
+        width: 60%;
+        float: right;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+    article div.item4 img{
+        width: 28%;
+    }
+    article div.item5{
+        width: 30.7%;
+        margin-left: 20px;
+    }
+    article div.item5 img{
+        width: 80%;
+    }
+    article div.item6{
+        width: 30.7%;
+        margin-left: 20px;
+    }
+    article div.item6 img{
+        width: 80%;
+    }
+    article div.item7{
+        width: 30.7%;
+        margin-left: 20px;
+    }
+    article div.item8{
+        width: 30.7%;
+        margin-left: 20px;
+    }
+
+   
+}
+
+
+

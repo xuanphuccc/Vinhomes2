@@ -1,0 +1,185 @@
+
+
+/* mobile and tablet */
+@media (max-width: 1023px) {
+
+    /* NAV */
+    #nav .nav-flag {
+        display: none;
+    }
+
+    #nav .nav-chart {
+        display: none;
+    }
+
+    #nav .nav-search .search{
+        display: none;
+    }
+
+    #nav .nav-wraper {
+        justify-content: space-between;
+    }
+
+    #nav .nav-wraper .nav-search {
+        order: 1;
+    }
+
+    #nav .nav-wraper .logo-container {
+        order: 2;
+    }
+    #nav .nav-wraper .nav-menu {
+        order: 5;
+    }
+
+    /* ========== SLIDER ========== */
+    #slider .search-banner {
+        display: none;
+    }
+    /* ========== CONTENT ========== */
+    /* Home review */
+    #content .home-review .slogan {
+        width: 100%;
+        padding: 0 18px;
+    }
+    #content .home-review .hope-tile {
+        width: 100%;
+        padding: 0 18px;
+    }
+
+    /* Content section */
+    #content .content-section .text-container {
+        width: 100%;
+        padding: 0 70px;
+        text-align: center;
+    }
+
+    /* main container */
+    #content .content-section .main-container {
+        max-width: 1000px;
+    }
+
+    /* ========== FOOTER ========== */
+    #footer .footer-item {
+        margin-bottom: 50px;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    /* ========== FOOTER ========== */
+    #footer {
+        padding: 60px;
+    }
+    #footer .footer-item .item-list {
+        display: none;
+    }
+    #footer .footer-item .item-header.double {
+        margin-top: 50px;
+    }
+
+    /* ----- Social Media ----- */
+    #footer .social-media {
+        justify-content: center;
+    }
+    /* Register */
+    .vin-info .contact .logo-container {
+        width: 100%;
+    }
+    .vin-info .contact .contact-wrap {
+        width: 100%;
+    }
+    .vin-info .contact .contact-wrap .copyright,
+    .vin-info .contact .contact-wrap .address {
+        text-align: center;
+        margin: 40px 0;
+    }
+
+    .vin-info .contact .contact-wrap .hotline-wrap {
+        max-width: 100%;
+        justify-content: center;
+    }
+    .vin-info .register .resgister-add {
+        text-align: center;
+    }
+
+    /* ============== SLIDER ============= */
+    #slider .title-wrap {
+        top: 45%;
+    }
+    #slider .title-wrap .brand-title {
+        font-size: 36px;
+    }
+    #slider .title-wrap .title-about {
+        font-size: 14px;
+    }
+
+    /* ============== CONTENT ============= */
+    /* Home review */
+    #content .home-review {
+        padding-top: 50px;
+    }
+    #content .menu-container {
+        margin: 0 16px;
+        padding: 0;
+    }
+    #content .menu-container .menu-wrap {
+        padding: 0;
+        border: none;
+    }
+
+    #content .menu-container .menu-wrap .title-wrap {
+        border: none;
+        border-bottom: 1px solid #ccc;
+        padding: 8px 24px;
+    }
+
+    #content .menu-container .menu-wrap .title-wrap i {
+        font-size: 30px;
+    }
+
+    #content .menu-container .menu-wrap .title-wrap p {
+        font-size: 11px;
+    }
+
+    /* CONTENT END */
+    .content-end .container .text-container .disc {
+        text-align: justify;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+    /* ========== FOOTER ========== */
+    /* Register */
+    .vin-info .contact .contact-wrap .copyright {
+        margin-bottom: 16px;
+    }
+
+    /* ========== CONTENT ========== */
+    /* home review */
+    #content .menu-container .menu-wrap .title-wrap {
+        flex-wrap: wrap;
+    }
+
+    #content .menu-container .menu-wrap .title-wrap i {
+        width: 100%;
+        text-align: center;
+        align-self: flex-start;
+    }
+
+    #content .menu-container .menu-wrap .title-wrap p {
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+        line-height: 16px;
+        margin-top: 12px;
+    }
+
+}
+
+/* PC */
+@media (min-width: 1024px) {
+
+}

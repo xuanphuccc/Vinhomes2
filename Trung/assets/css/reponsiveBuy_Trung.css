@@ -1,0 +1,284 @@
+@media only screen and (max-width: 1239px) {
+    .nav {
+        display: none;
+    }
+    .nav__center {
+        display: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav__child {}
+    .nav--right {
+        /* display: flex; */
+    }
+}
+
+
+/* danh cho man hinh lap top tro xuong*/
+
+@media only screen and (max-width: 1023px) {
+    .slider {
+        padding: 0 12px 0 8px;
+    }
+    .slider__content {
+        flex-direction: column;
+    }
+    .slider__content__left {
+        width: 90%;
+    }
+    .slider__content__img {
+        padding-top: 15px;
+        width: 100%;
+    }
+    .slider__content2 {
+        flex-direction: column;
+        padding-top: 0;
+    }
+    .slider__content2 .slider__content__img {
+        padding-top: 70px;
+    }
+    .slider__content__right {
+        width: 90%;
+    }
+    /*  */
+    .slider__content__special--border {
+        width: 50%;
+        padding-top: 10px;
+    }
+    .slider__project__list--border {
+        width: 50%;
+        padding-top: 10px;
+    }
+    .slider__reason {
+        flex-wrap: wrap;
+    }
+    .slider__reason__content {
+        margin-top: 320px;
+    }
+    .slider__reason__img {}
+    .slider__reason__content__title {
+        max-width: 350px;
+    }
+    .slider__advertisement__ad__img {
+        padding-right: 20px;
+    }
+    .slider__news__content__big {
+        display: none;
+    }
+    .slider__news__contents__small {
+        width: 100%;
+    }
+}
+
+
+/* danh cho man hinh dien thoai tro xuong */
+
+@media only screen and (max-width: 740px) {
+    header {
+        height: 65vh;
+    }
+    .header__content__from {
+        top: 15%;
+    }
+    .header__content__from h3 {
+        font-size: 12px;
+    }
+    .header__content--boder {
+        margin-top: 20px;
+        top: 20%;
+        /* width: 320px; */
+        max-width: calc(100% - 34px);
+    }
+    .header__content {
+        /* margin: 0 20px; */
+    }
+    .header__content__search {
+        width: 100%;
+        display: flex;
+    }
+    .header__content--boder {}
+    .header__content__search--input {
+        width: 70%;
+    }
+    .header__content__search--input input {
+        width: 100%;
+        height: 50px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+        border: 1px solid #b9b9b9;
+        outline: none;
+        padding: 20px 12px;
+        color: #a4a5a7;
+        font-weight: 300;
+        font-size: 14px;
+    }
+    .header__content__search--btn {
+        /* width: 20%; */
+        width: 30%;
+    }
+    .header__content__search--btn button {
+        height: 50px;
+        width: 100%;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+        font-size: 12px;
+    }
+    .slider__content__special--border {
+        width: 100%;
+    }
+    .slider__project__list--border {
+        width: 100%;
+        padding-top: 10px;
+    }
+    .slider__reason__img--after {
+        position: absolute;
+        max-width: 285px;
+        height: 285px;
+        top: 0;
+        left: 0;
+    }
+    .slider__reason__img--front {
+        position: absolute;
+        max-width: 200px;
+        height: 200px;
+        top: 100px;
+        right: 0px;
+        left: unset;
+    }
+    .slider__advertisement__ad {
+        flex-direction: column;
+    }
+    .slider__advertisement__ad__img {
+        width: 100%;
+        padding-right: 0;
+    }
+    .slider__advertisement__ad__content p {
+        max-width: 100%;
+        /* width: 50%; */
+    }
+    .slider__advertisement__ad__content {
+        width: 50%;
+        margin-left: 20px;
+        /* MARGIN-BOTTOM: 30PX; */
+    }
+    .slider__news__content__big {
+        width: 100%;
+        height: 80vw;
+        display: unset;
+    }
+    .slider__news__contents__small {
+        width: 100%;
+    }
+    .news--small {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    .wide {
+        width: 664px;
+    }
+    .slider__advertisement__ad__content p {
+        /* max-width: 100%; */
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1239px) {
+    .wide {
+        width: 984px;
+    }
+    .slider__reason__content {
+        width: 25%;
+    }
+}
+
+
+/* repontsive footer */
+
+
+/* mobile and tablet */
+
+@media (max-width: 1023px) {
+    /* NAV */
+    #nav .nav-flag {
+        display: none;
+    }
+    #nav .nav-chart {
+        display: none;
+    }
+    #nav .nav-search .search {
+        display: none;
+    }
+    #nav .nav-wraper {
+        justify-content: space-between;
+    }
+    #nav .nav-wraper .nav-search {
+        order: 1;
+    }
+    #nav .nav-wraper .logo-container {
+        order: 2;
+    }
+    #nav .nav-wraper .nav-menu {
+        order: 5;
+    }
+    /* ========== FOOTER ========== */
+    #footer .footer-item {
+        margin-bottom: 50px;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width: 739px) {
+    /* ========== FOOTER ========== */
+    #footer {
+        padding: 60px;
+    }
+    #footer .footer-item .item-list {
+        display: none;
+    }
+    #footer .footer-item .item-header.double {
+        margin-top: 50px;
+    }
+    /* ----- Social Media ----- */
+    #footer .social-media {
+        justify-content: center;
+    }
+    /* Register */
+    .vin-info .contact .logo-container {
+        width: 100%;
+    }
+    .vin-info .contact .contact-wrap {
+        width: 100%;
+    }
+    .vin-info .contact .contact-wrap .copyright,
+    .vin-info .contact .contact-wrap .address {
+        text-align: center;
+        margin: 40px 0;
+    }
+    .vin-info .contact .contact-wrap .hotline-wrap {
+        max-width: 100%;
+        justify-content: center;
+    }
+    .vin-info .register .resgister-add {
+        text-align: center;
+    }
+}
+
+
+/* Tablet */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    /* ========== FOOTER ========== */
+    /* Register */
+    .vin-info .contact .contact-wrap .copyright {
+        margin-bottom: 16px;
+    }
+}
+
+
+/* PC */
+
+@media (min-width: 1024px) {}

@@ -1,0 +1,103 @@
+/* mobile and tablet */
+
+@media (max-width: 1023px) {
+    /* NAV */
+    #nav .nav-flag {
+        display: none;
+    }
+    #nav .nav-chart {
+        display: none;
+    }
+    #nav .nav-search .search {
+        display: none;
+    }
+    #nav .nav-wraper {
+        justify-content: space-between;
+    }
+    #nav .nav-wraper .nav-search {
+        order: 1;
+    }
+    #nav .nav-wraper .logo-container {
+        order: 2;
+    }
+    #nav .nav-wraper .nav-menu {
+        order: 5;
+    }
+    /* ========== FOOTER ========== */
+    #footer .footer-item {
+        margin-bottom: 50px;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width: 739px) {
+    /* ========== FOOTER ========== */
+    #footer {
+        padding: 60px;
+    }
+    #footer .footer-item .item-list {
+        display: none;
+    }
+    #footer .footer-item .item-header.double {
+        margin-top: 50px;
+    }
+    /* ----- Social Media ----- */
+    #footer .social-media {
+        justify-content: center;
+    }
+    /* Register */
+    .vin-info .contact .logo-container {
+        width: 100%;
+    }
+    .vin-info .contact .contact-wrap {
+        width: 100%;
+    }
+    .vin-info .contact .contact-wrap .copyright,
+    .vin-info .contact .contact-wrap .address {
+        text-align: center;
+        margin: 40px 0;
+    }
+    .vin-info .contact .contact-wrap .hotline-wrap {
+        max-width: 100%;
+        justify-content: center;
+    }
+    .vin-info .register .resgister-add {
+        text-align: center;
+    }
+    .form {
+        margin-top: 110px;
+        border: 2px solid #dbdde1;
+        border-radius: 10px;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+        width: 95%;
+        padding: 48px;
+        /* height: 100%; */
+    }
+}
+
+
+/* Tablet */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    /* ========== FOOTER ========== */
+    /* Register */
+    .vin-info .contact .contact-wrap .copyright {
+        margin-bottom: 16px;
+    }
+    .form {
+        margin-top: 110px;
+        border: 2px solid #dbdde1;
+        border-radius: 10px;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+        width: 70%;
+        padding: 48px;
+        /* height: 100%; */
+    }
+}
+
+
+/* PC */
+
+@media (min-width: 1024px) {}
