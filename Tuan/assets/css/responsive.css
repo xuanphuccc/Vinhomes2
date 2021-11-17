@@ -1,0 +1,149 @@
+
+
+/* mobile and tablet */
+@media (max-width: 1023px) {
+
+    /* NAV */
+    #nav .nav-flag {
+        display: none;
+    }
+
+    #nav .nav-chart {
+        display: none;
+    }
+
+    #nav .nav-search .search{
+        display: none;
+    }
+
+    #nav .nav-wraper {
+        justify-content: space-between;
+    }
+
+    #nav .nav-wraper .nav-search {
+        order: 1;
+    }
+
+    #nav .nav-wraper .logo-container {
+        order: 2;
+    }
+    #nav .nav-wraper .nav-menu {
+        order: 5;
+    }
+
+    /* ========== CONTENT ========== */
+    
+    #content .container-content {
+        padding: 0 24px;
+    }
+    
+    
+    /* menu-news */
+    #content .menu-news ul li a { 
+        line-height: 20px;
+    }
+
+    /* news main */
+
+
+    /* events */
+
+    #content .follow .social-follow {
+        padding-bottom: 70px;
+    }
+
+    /* news main */
+
+    
+
+
+    /* ========== FOOTER ========== */
+    #footer .footer-item {
+        margin-bottom: 50px;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+
+    /* ========== BANNER ========== */ 
+
+    #banner .bannertintuc {
+        height: 150px;
+    }
+
+    #banner .bannertintuc > h2 {
+        font-size: 30px;
+        align-items: center;
+    }
+
+
+    /* ========== CONTENT ========== */ 
+
+    /* #content .img-container {
+        width: 100%;
+        height: 100%;
+    } */
+
+
+
+    /* ========== FOOTER ========== */
+    #footer {
+        padding: 60px;
+    }
+    #footer .footer-item .item-list {
+        display: none;
+    }
+    #footer .footer-item .item-header.double {
+        margin-top: 50px;
+    }
+
+    /* ----- Social Media ----- */
+    #footer .social-media {
+        justify-content: center;
+    }
+    /* Register */
+    .vin-info .contact .logo-container {
+        width: 100%;
+    }
+    .vin-info .contact .contact-wrap {
+        width: 100%;
+    }
+    .vin-info .contact .contact-wrap .copyright,
+    .vin-info .contact .contact-wrap .address {
+        text-align: center;
+        margin: 40px 0;
+    }
+
+    .vin-info .contact .contact-wrap .hotline-wrap {
+        max-width: 100%;
+        justify-content: center;
+    }
+    .vin-info .register .resgister-add {
+        text-align: center;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+    /* ========== CONTENT ========== */
+
+
+
+    /* ========== FOOTER ========== */
+    /* Register */
+    .vin-info .contact .contact-wrap .copyright {
+        margin-bottom: 16px;
+    }
+
+}
+
+/* PC */
+@media (min-width: 1024px) {
+    #content .img-container {
+        width: 100%;
+        height: 165px;
+    }
+}

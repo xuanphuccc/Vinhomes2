@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tin tức | Vinhomes</title>
+    <link rel="shortcut icon" href="./assets/img/Logo_icon/logo-vinhomes.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <script src="https://kit.fontawesome.com/25a053a904.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main">
+        <!--======= NAV BAR ======= -->
+        <div id="nav">
+            <div class="grid wide nav-container">
+                
+                <div class="row nav-wraper">
+                    <!-- Logo -->
+                    <div class="col l-1 logo-container">
+                        <a href=""><img class="nav-logo" src="./assets/img/Logo_icon/vinhomes_logo.svg" alt=""></a>
+                    </div>
+
+                    <!-- Menu -->
+                    <div class="col l-6 m-0 c-0 nav-menu-wraper">
+                        <ul class="nav-list">
+                            <li class="nav-item"><a href="">Về Vinhomes</a><div class="line"></div></li>
+                            <li class="nav-item"><a href="">Mua</a><div class="line"></div>
+                                <ul class="sub-menu-container">
+                                    <li class="sub-menu-item"><a href="">Mua trực tuyến</a><div class="line"></div></li>
+                                    <li class="sub-menu-item"><a href="">Dự án</a><div class="line"></div></li>
+                                    <li class="sub-menu-item"><a href="">BĐS nghỉ dưỡng</a><div class="line"></div></li>
+                                    <li class="sub-menu-item"><a href="">BĐS khác</a><div class="line"></div></li>
+                                    <li class="sub-menu-item"><a href="">Virtual Tour Collection</a><div class="line"></div></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a href="">Thuê</a><div class="line"></div>
+                                <ul class="sub-menu-container">
+                                    <li class="sub-menu-item"><a href="">Căn hộ</a><div class="line"></div></li>
+                                    <li class="sub-menu-item"><a href="">Văn phòng</a><div class="line"></div></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a href="">Quan hệ cổ đông</a><div class="line"></div></li>
+                            <li class="nav-item"><a href="">Tin tức</a><div class="line">
+                                <ul class="sub-menu-container">
+                                    <li class="sub-menu-item"><a href="">Ưu đãi khuyến mãi</a><div class="line"></div></li>
+                                    <li class="sub-menu-item"><a href="">Sự kiện</a><div class="line"></div></li>
+                                    <li class="sub-menu-item"><a href="">Thị trường</a><div class="line"></div></li>
+                                    <li class="sub-menu-item"><a href="">Phong cách</a><div class="line"></div></li>
+                                    <li class="sub-menu-item"><a href="">Tin công ty</a><div class="line"></div></li>
+                                </ul>
+                            </div></li>
+                            <li class="nav-item"><a href="">Hỗ trợ</a><div class="line"></div></li>
+                        </ul>
+                    </div>
+
+                    <!-- Flag -->
+                    <div class="col l-1 nav-flag">
+                        <div class="vn">
+                            <a href=""><img src="./assets/img/Logo_icon/vie-active.svg" alt=""></a>
+                        </div>
+                        <div class="eng">
+                            <a href=""><img src="./assets/img/Logo_icon/flag-en.svg" alt=""></a>
+                        </div>
+                    </div>
+
+                    <!-- Chart -->
+                    <div class="col l-2 nav-chart">
+                        <div class="chart">
+                            <img src="./assets/img/Logo_icon/chart.svg" alt="">
+                        </div>
+                        <div class="chart-text-wrap">
+                            <p class="chart-text">VHM: HOSE</p>
+                            <p class="chart-price">82.000VNĐ</p>
+                        </div>
+                    </div>
+
+                    <!-- Search and login -->
+                    <div class="col l-2 nav-search">
+                        <div class="search">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="user">
+                            <a href=""><i class="far fa-user"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Menu icon -->
+                    <div class="col l-0 nav-menu">
+                        <div class="menu">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-side-bar">
+            <!-- ----- Side Bar ------ -->
+            <div class="side-bar-bg"></div>
+            <div class="side-bar">
+                <!-- Logo -->
+                <div class="side-bar-header">
+                    <div class="side-bar-logo"><a href=""><img class="nav-logo" src="./assets/img/Logo_icon/vinhomes_logo.svg" alt=""></a></div>
+                    <div class="side-bar-exit-icon"><i class="fas fa-times"></i></div>
+                </div>
+                <!-- Chart -->
+                <div class="side-bar-chart">
+                    <div class="chart">
+                        <img src="./assets/img/Logo_icon/chart.svg" alt="">
+                    </div>
+                    <div class="chart-text-wrap">
+                        <p class="chart-text">VHM: HOSE</p>
+                        <p class="chart-price">82.000VNĐ</p>
+                    </div>
+                </div>
+
+                <!-- Menu -->
+                <div class="side-bar-menu-wraper">
+                    <ul class="side-bar-list">
+                        <li class="side-bar-item"><a href="">Về Vinhomes</a></li>
+                        <li class="side-bar-item">
+                            <div class="drop-head"><p href="">Mua</p><i class="fas fa-caret-down"></i></div>
+                            <ul class="drop-container">
+                                <li class="drop-item"><a href="">Mua trực tuyến</a></li>
+                                <li class="drop-item"><a href="">Dự án</a></li>
+                                <li class="drop-item"><a href="">BĐS nghỉ dưỡng</a></li>
+                                <li class="drop-item"><a href="">BĐS khác</a></li>
+                                <li class="drop-item"><a href="">Virtual Tour Collections</a></li>
+                            </ul>
+                        </li>
+                        <li class="side-bar-item">
+                            <div class="drop-head"><p href="">Thuê</p><i class="fas fa-caret-down"></i></div>
+                            <ul class="drop-container">
+                                <li class="drop-item"><a href="">Căn hộ</a></li>
+                                <li class="drop-item"><a href="">Văn phòng</a></li>
+                            </ul>
+                        </li>
+                        <li class="side-bar-item"><a href="">Quan hệ cổ đông</a></li>
+                        <li class="side-bar-item">
+                            <div class="drop-head"><p href="">Tin tức</p><i class="fas fa-caret-down"></i></div>
+                            <ul class="drop-container">
+                                <li class="drop-item"><a href="">Ưu đãi khuyến mãi</a></li>
+                                <li class="drop-item"><a href="">Sự kiện</a></li>
+                                <li class="drop-item"><a href="">Thị trường</a></li>
+                                <li class="drop-item"><a href="">Phong cách</a></li>
+                                <li class="drop-item"><a href="">Tin công ty</a></li>
+                            </ul>
+                        </li>
+                        <li class="side-bar-item"><a href="">Hỗ trợ</a></li>
+                    </ul>
+                </div>
+            
+                <!-- Flag -->
+                <div class="side-bar-flag">
+                    <div class="vn">
+                        <a href=""><img src="./assets/img/Logo_icon/vie-active.svg" alt=""></a>
+                    </div>
+                    <div class="eng">
+                        <a href=""><img src="./assets/img/Logo_icon/flag-en.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ============== BANNER ============= -->
+        <div id="banner">
+            <div class="bannertintuc">
+                <h2>TIN TỨC VINHOMES</h2>
+            </div>
+        </div>
+
+        <!-- ============== CONTENT ============= -->
+        <div id="content">
+            <div class="grid wide">
+                <div class="container-content">
+                    <div class="row">                       
+                            <!-- News -->
+                            <div class="col l-8 m-12 c-12">
+                                <div class="news-wraper">
+                                    <div class="menu-news">
+                                        <ul>
+                                            <li><a href="">Tất cả</a><div class="line"></div></li>
+                                            <li><a href="">Thị trường</a><div class="line"></div></li>
+                                            <li><a href="">Phong cách</a><div class="line"></div></li>
+                                            <li><a href="">Sự kiện</a><div class="line"></div></li>
+                                            <li><a href="">Tin công ty</a><div class="line"></div></li>
+                                            <li><a href="">Ưu đãi - Khuyến mãi</a><div class="line"></div></li>
+                                        </ul>
+                                    </div>
+                                    <div class="news-main">
+                                        <div class="news-item">
+                                            <div class="row">
+                                                    <div class="col l-5 m-5 c-12">
+                                                        <div class="img-container">
+                                                            <img src="./assets/img/News/News_1.jpg" alt="Vinhomes">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col l-7 m-7 c-12">
+                                                        <div class="text-container">
+                                                            <h5>Technopark Tower được vinh danh "Trung tâm thông minh nhất" tại IBcon Digie Awards</h5>
+                                                            <p>Đầu tháng 11/2021, tại Scottsdale, Arizona (Mỹ), tòa nhà TechnoPark Tower (thuộc đại đô thị Vinhomes Ocean Park, Hà Nội) đã xuất sắc vượt qua hàng loạt tòa nhà trên thế giới để trở...</p>
+                                                            <div class="time">
+                                                                <i class="far fa-clock"></i>
+                                                                <p>08.11.2021</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>                                       
+                                            </div>   
+                                        </div>
+
+                                        <div class="news-item">
+                                            <div class="row">
+                                                    <div class="col l-5 m-5 c-12">
+                                                        <div class="img-container">
+                                                            <img src="./assets/img/News/News_2.png" alt="Vinhomes">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col l-7 m-7 c-12">
+                                                        <div class="text-container">
+                                                            <h5>Talk show “Người tiên phong”: Green Code to the future - Mã xanh vào tương lai</h5>
+                                                            <p>Talk show “Người tiên phong", một serie chương trình nói về những người mở ra những con đường mới, sẵn sàng đương đầu với những thử thách mới. Với những người tiên phong, hành...</p>
+                                                            <div class="time">
+                                                                <i class="far fa-clock"></i>
+                                                                <p>08.11.2021</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>                                       
+                                            </div>   
+                                        </div>
+
+                                        <div class="news-item">
+                                            <div class="row">
+                                                    <div class="col l-5 m-5 c-12">
+                                                        <div class="img-container">
+                                                            <img src="./assets/img/News/News_3.png" alt="Vinhomes">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col l-7 m-7 c-12">
+                                                        <div class="text-container">
+                                                            <h5>Vinhomes tung ưu đãi đặc biệt cho khách hàng phía Bắc</h5>
+                                                            <p>Ngày 08/11/2021, Vinhomes phối hợp với 5 ngân hàng Vietcombank, VietinBank, Techcombank, MB, VPBank triển khai chương trình ưu đãi đặc biệt "Chỉ từ 250 triệu, rinh nhà hiệu...</p>
+                                                            <div class="time">
+                                                                <i class="far fa-clock"></i>
+                                                                <p>08.11.2021</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>                                       
+                                            </div>   
+                                        </div>
+
+                                        <div class="news-item">
+                                            <div class="row">
+                                                    <div class="col l-5 m-5 c-12">
+                                                        <div class="img-container">
+                                                            <img src="./assets/img/News/News_4.jpeg" alt="Vinhomes">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col l-7 m-7 c-12">
+                                                        <div class="text-container">
+                                                            <h5>Chờ những cú ‘bật nhảy’ thị trường BĐS phía Nam dịp cuối năm</h5>
+                                                            <p>Lượng giao dịch BĐS quý II/2021 tăng 18% so với quý I/2021 cho thấy thị trường vẫn có lực đẩy và tăng trưởng chiều sâu bất chấp dịch bệnh. Riêng tại TP.HCM, nguồn cầu đầu tư cuối năm tăng...</p>
+                                                            <div class="time">
+                                                                <i class="far fa-clock"></i>
+                                                                <p>08.11.2021</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>                                       
+                                            </div>   
+                                        </div>
+
+                                        <div class="news-item">
+                                            <div class="row">
+                                                    <div class="col l-5 m-5 c-12">
+                                                        <div class="img-container">
+                                                            <img src="./assets/img/News/News_5.jpeg" alt="Vinhomes">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col l-7 m-7 c-12">
+                                                        <div class="text-container">
+                                                            <h5>Những công trình tạo điểm nhấn cho Vinhomes Ocean Park</h5>
+                                                            <p>Biển hồ nước mặn giữa lòng Thủ đô, tòa nhà văn phòng thông minh mục tiêu top 10 thế giới, trường đại học mang tầm quốc tế… giữa lòng Vinhomes Ocean Park được kiến tạo bởi người Việ...</p>
+                                                            <div class="time">
+                                                                <i class="far fa-clock"></i>
+                                                                <p>08.11.2021</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>                                       
+                                            </div>   
+                                        </div>
+
+                                        <div class="news-item">
+                                            <div class="row">
+                                                    <div class="col l-5 m-5 c-12">
+                                                        <div class="img-container">
+                                                            <img src="./assets/img/News/News_6.jpeg" alt="Vinhomes">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col l-7 m-7 c-12">
+                                                        <div class="text-container">
+                                                            <h5>Đi tìm định nghĩa “Đô thị xanh” trong thời đại mới</h5>
+                                                            <p>Cuộc sống ngày càng phát triển, con người càng khao khát hướng đến những giá trị xanh bền vững. “Đô thị xanh” – Khái niệm tưởng như đã cố hữu nhiều năm trong tâm trí người Việt...</p>
+                                                            <div class="time">
+                                                                <i class="far fa-clock"></i>
+                                                                <p>08.11.2021</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>                                       
+                                            </div>   
+                                        </div>
+
+                                        <div class="news-item">
+                                            <div class="row">
+                                                    <div class="col l-5 m-5 c-12">
+                                                        <div class="img-container">
+                                                            <img src="./assets/img/News/News_7.jpeg" alt="Vinhomes">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col l-7 m-7 c-12">
+                                                        <div class="text-container">
+                                                            <h5>Vinhomes tặng cư dân 30.000 voucher xe máy điện VinFast</h5>
+                                                            <p>Vinhomes vừa ra mắt chương trình “Thẻ xanh chào ngày mới” với 30.000 voucher mua xe máy điện VinFast trị giá 10 triệu đồng dành tặng riêng cư dân tại hai Vinhomes Smart City và Vinhom...</p>
+                                                            <div class="time">
+                                                                <i class="far fa-clock"></i>
+                                                                <p>08.11.2021</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>                                       
+                                            </div>   
+                                        </div>
+
+                                        <div class="news-item">
+                                            <div class="row">
+                                                    <div class="col l-5 m-5 c-12">
+                                                        <div class="img-container">
+                                                            <img src="./assets/img/News/News_8.png" alt="Vinhomes">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col l-7 m-7 c-12">
+                                                        <div class="text-container">
+                                                            <h5>Gõ cửa những kỳ tích mang trái tim 'Make in Vietnam'</h5>
+                                                            <p>Những kỳ quan đô thị đại diện cho sự phát triển không ngừng của đất nước, được gọi với cái tên dung dị là những công trình mang trái tim “Make in Vietnam”....</p>
+                                                            <div class="time">
+                                                                <i class="far fa-clock"></i>
+                                                                <p>08.11.2021</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>                                       
+                                            </div>   
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="news-extend-btn">
+                                    <a href="">XEM THÊM TIN TỨC KHÁC</a>
+                                </div>
+                            </div>
+                            
+                            <!-- Events Calendar -->
+                            <div class="col l-4 m-12 c-12">
+                                <div class="event-wraper">
+                                    <h3>Lịch sự kiện</h3>
+                                    <div class="event-main">
+                                        <!-- <div class="event-item"> -->
+                                            <div class="row event-item">
+                                                <div class="col l-2 m-2 c-3">
+                                                    <div class="event-time">
+                                                        <div class="m-y">11/2021</div>
+                                                        <div class="day">30</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-10 m-10 c-9">
+                                                    <a href="" class="title-event">LỄ RA QUÂN DỰ ÁN THE BEVERLY - VINHOMES GRAND PARK</a>
+                                                </div>
+                                            </div>
+                                        <!-- </div> -->
+
+                                        <!-- <div class="event-item"> -->
+                                            <div class="row event-item">
+                                                <div class="col l-2 m-2 c-4">
+                                                    <div class="event-time">
+                                                        <div class="m-y">11/2021</div>
+                                                        <div class="day">14</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-10 m-10 c-9">
+                                                    <a href="" class="title-event">VINHOMES GRAND PARK - GREENCODE TO THE FUTURE</a>
+                                                </div>
+                                            </div>
+                                        <!-- </div> -->
+
+                                        <!-- <div class="event-item"> -->
+                                            <div class="row event-item">
+                                                <div class="col l-2 m-2 c-3">
+                                                    <div class="event-time">
+                                                        <div class="m-y">11/2021</div>
+                                                        <div class="day">07</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-10 m-10 c-9">
+                                                    <a href="" class="title-event">SERIES TALK SHOW "NGƯỜI TIÊN PHONG" - TẬP #4: GREENCODE TO THE FUTURE</a>
+                                                </div>
+                                            <!-- </div> -->
+                                        </div>
+
+                                        <!-- <div class="event-item"> -->
+                                            <div class="row event-item">
+                                                <div class="col l-2 m-2 c-3">
+                                                    <div class="event-time">
+                                                        <div class="m-y">10/2021</div>
+                                                        <div class="day">24</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-10 m-10 c-9">
+                                                    <a href="" class="title-event">SERIES TALK SHOW "NGƯỜI TIÊN PHONG" - TẬP #3: NHỮNG CÔNG TRÌNH CÓ TRÁI TIM</a>
+                                                </div>
+                                            <!-- </div> -->
+                                        </div>
+
+                                        <!-- <div class="event-item"> -->
+                                            <div class="row event-item">
+                                                <div class="col l-2 m-2 c-4">
+                                                    <div class="event-time">
+                                                        <div class="m-y">10/2021</div>
+                                                        <div class="day">10</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-10 m-10 c-8">
+                                                    <a href="" class="title-event">SERIES TALK SHOW "NGƯỜI TIÊN PHONG" - TẬP #2: SỐNG “BÌNH THƯỜNG MỚI” - ĐẦU TƯ “TẦM NHÌN MỚI”</a>
+                                                </div>
+                                            <!-- </div> -->
+                                        </div>
+
+                                        <div class="view-all">
+                                            <a href="">Xem tất cả</a>
+                                        </div>
+
+                                        <div class="ads-event_1">
+                                            <img src="./assets/img/Event/Banner-tin-tức-OCV_1627998014.png" alt="">
+                                        </div>
+
+                                        <div class="ads-event_2">
+                                            <img src="./assets/img/Event/the_minami.png" alt="">
+                                        </div>
+
+                                        <div class="follow">
+                                            <p>Theo dõi Vinhomes trên</p>
+                                            <div class="social-follow">
+                                                <div class="logo fb"><a href=""><i class="fab fa-facebook-f"></i></a></div>
+                                                <div class="logo yt"><a href=""><i class="fab fa-youtube"></i></a></div>
+                                                <div class="logo ig"><a href=""><i class="fab fa-instagram"></i></a></div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+
+            
+
+        </div>
+
+
+
+        <!-- ============== FOOTER ============= -->
+        <div class="grid wide" id="footer">
+            <div class="row footer-vinhomes">
+                <div class="col l-2 m-4 c-12 footer-item">
+                    <h4 class="item-header">Về Vinhomes</h4>
+                    <ul class="item-list">
+                        <li><a href="">Giới thiệu</a></li>
+                        <li><a href="">Khu đô thị</a></li>
+                        <li><a href="">Tuyển dụng</a></li>
+                    </ul>
+                </div>
+
+                <div class="col l-2 m-4 c-12 footer-item">
+                    <h4 class="item-header">Bất động sản bán</h4>
+                    <ul class="item-list">
+                        <li><a href="">mua trực tuyến</a></li>
+                        <li><a href="">Dự án</a></li>
+                        <li><a href="">BĐS nghỉ dưỡng</a></li>
+                        <li><a href="">BĐS khác</a></li>
+                        <li><a href="">Virtual Tour Collections</a></li>
+                        <li><a href="">Bản Đồ Vinhomes</a></li>
+                    </ul>
+                </div>
+
+                <div class="col l-2 m-4 c-12 footer-item">
+                    <h4 class="item-header">Bất động sản cho thuê</h4>
+                    <ul class="item-list">
+                        <li><a href="">Cho thuê căn hộ</a></li>
+                    </ul>
+                </div>
+
+                <div class="col l-2 m-4 c-12 footer-item">
+                    <h4 class="item-header">Quan hệ cổ đông</h4>
+                    <ul class="item-list">
+                        <li><a href="">Cổ phiếu Vinhomes</a></li>
+                        <li><a href="">Báo cáo tài chính</a></li>
+                        <li><a href="">Báo cáo thường niên</a></li>
+                        <li><a href="">Lịch sự kiện đầu tư</a></li>
+                    </ul>
+                </div>
+
+                <div class="col l-2 m-4 c-12 footer-item">
+                    <h4 class="item-header">Tin tức</h4>
+                    <ul class="item-list">
+                        <li><a href="">Tin tức - Sự kiện</a></li>
+                        <li><a href="">Ưu đãi - Khuyến mãi</a></li>
+                    </ul>
+
+                    <h4 class="item-header double">Pháp lý</h4>
+                    <ul class="item-list">
+                        <li><a href="">Chính sách quyền riêng tư</a></li>
+                       
+                    </ul>
+                </div>
+
+                <div class="col l-2 m-4 c-12 footer-item">
+                    <h4 class="item-header">Hỗ trợ</h4>
+                    <ul class="item-list">
+                        <li><a href="">Chăm sóc khách hàng</a></li>
+                        <li><a href="">Hotline bán hàng</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- ------- Social Media ------- -->
+            <div class="row social-media">
+                <div class="col l-5 m-5 c-0 line"></div>
+                <div class="col l-2 m-2 c-4  brand-logo">
+                    <div class="logo-icon fb"><i class="fab fa-facebook-f"></i></div>
+                    <div class="logo-icon youtube"><i class="fab fa-youtube"></i></div>
+                    <div class="logo-icon insta"><i class="fab fa-instagram"></i></div>
+                </div>
+                <div class="col l-5 m-5 c-0 line"></div>
+            </div>
+
+            <!-- --------- Info --------- -->
+            <div class="row vin-info">
+                <div class="col l-7 contact">
+                    <div class="logo-container">
+                        <a href=""><img class="logo" src="./assets/img/Logo_icon/vinhomes_logo.svg" alt=""></a>
+                    </div>
+                    <div class="contact-wrap">
+                        <p class="address">Tòa nhà văn phòng Symphony, Đường Chu Huy Mân, Khu đô thị sinh thái Vinhomes Riverside, Phường Phúc Lợi, Quận Long Biên, Thành phố Hà Nội, Việt Nam.</p>
+                        <div class="hotline-wrap">
+                            <a class="hotline-left" href="tel:1900 2323 89">Tổng đài CSKH</a>
+                            <a class="hotline" href="tel:1900 2323 89">1900 2323 89</a>
+                        </div>
+                        <p class="copyright">© 2021. Toàn bộ bản quyền thuộc Vinhomes JSC. Một thành viên của Tập đoàn Vingroup.</p>
+                    </div>
+                </div>
+
+                <!-- Register -->
+                <div class="col l-5 m-8 c-12 register">
+                    <p class="l-0 m-0 c-12 label" for="label">Đăng ký nhận bản tin</p>
+                    <form action="" class="input-register">
+                        <input type="text" name="" id="" placeholder="Họ và tên" required>
+                        <input type="tel" name="" id="" placeholder="Số điện thoại" required>
+                        <input type="email" name="" id="" placeholder="Email" required>
+                        <input class="submit" type="submit" value="Đăng ký">
+                    </form>
+                    <p class="resgister-add">Quý khách đăng ký nhận email quảng cáo về các chương trình ưu đãi, khuyến mại và tin tức mới nhất từ Vinhomes.</p>
+                </div>
+            </div>
+
+            <!-- ----- Menu footer ------ -->
+            <div class="menu-container">
+                <div class="row">
+                    <div class="col l-3 m-12 c-12 menu-item"><a href="">VinFast</a></div>
+                    <div class="col l-3 m-12 c-12 menu-item"><a href="">Vinmec</a></div>
+                    <div class="col l-3 m-12 c-12 menu-item"><a href="">Vinpearl</a></div>
+                    <div class="col l-3 m-12 c-12 menu-item"><a href="">Vsmart</a></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="./assets/js/vin.js"></script>
+</body>
+</html>
