@@ -237,7 +237,7 @@
         padding: 60px;
     }
     #footer .footer-item .item-list {
-        display: none;
+        display: block;
     }
     #footer .footer-item .item-header.double {
         margin-top: 50px;
