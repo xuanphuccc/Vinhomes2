@@ -18,6 +18,7 @@ html {
 /* ============= NAV ============= */
 #nav {
     position: fixed;
+    top: 0;
     z-index: 1;
     height: 70px;
     width: 100%;
@@ -53,7 +54,6 @@ html {
 
 #nav .nav-menu-wraper .nav-list .nav-item .line{
     height: 2.5px;
-    width: 100%;
     width: 0;
     
 }
@@ -102,12 +102,6 @@ html {
     font-size: 13px;
     font-weight: 600;
     color: #000;
-}
-
-#nav .nav-menu-wraper .nav-list .nav-item .sub-menu-container li:hover .line{
-    background-color: #dca447;
-    width: 100%;
-    transition-duration: .5s;
 }
 
 #nav .nav-menu-wraper .nav-list .nav-item:hover .sub-menu-container {
@@ -416,9 +410,6 @@ html {
     justify-content: center;
 }
 
-#slider .search-banner .submit {
-
-}
 #slider .search-banner .submit input {
     -webkit-appearance: none;
     border: none;
@@ -497,7 +488,6 @@ html {
 
 /* ----------- CONTENT SECTION ------- */
 
-/*---- Text ----*/
 #content .content-section {
     background: #f6e9d5;
 }
@@ -506,6 +496,8 @@ html {
     padding: 50px 0;
 }
 
+
+/* Text container */
 #content .content-section .text-container {
     width: 45%;
     margin-bottom: 40px;
@@ -622,7 +614,7 @@ html {
 
 #content .content-section .main-container .text-wrap {
     padding: 24px;
-    height: 20%;
+    height: 40%;
 }
 
 #content .content-section .main-container .text-wrap .slogan {
@@ -651,10 +643,6 @@ html {
     background: #18369c ;
 }
 
-.content-end .container {
-
-}
-
 .content-end .container .text-container {
     height: 100%;
     width: 100%;
@@ -667,6 +655,7 @@ html {
     font-size: 13px;
     color: #fff;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .content-end .container .text-container .title {
@@ -686,10 +675,6 @@ html {
 }
 
 /*----- img -----*/
-.content-end .container .text-container .slogan{
-    font-size: 13px;
-    text-transform: uppercase;
-}
 
 .content-end .container .img-container {
     width: 100%;
@@ -707,9 +692,6 @@ html {
     padding: 60px 0;
 }
 
-#footer .footer-item {
-
-}
 #footer .footer-item .item-header {
     font-size: 16px;
 }
@@ -793,7 +775,7 @@ html {
 }
 
 .vin-info .contact .contact-wrap {
-    width: 66.666%;
+    width: 66.6667%;
     padding: 0 12px;
 }
 

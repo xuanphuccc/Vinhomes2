@@ -1,0 +1,221 @@
+
+
+/* mobile and tablet */
+@media (max-width: 1023px) {
+
+    /* NAV */
+    #nav .nav-flag {
+        display: none;
+    }
+
+    #nav .nav-chart {
+        display: none;
+    }
+
+    #nav .nav-search .search{
+        display: none;
+    }
+
+    #nav .nav-wraper {
+        justify-content: space-between;
+    }
+
+    #nav .nav-wraper .nav-search {
+        order: 1;
+    }
+
+    #nav .nav-wraper .logo-container {
+        order: 2;
+    }
+    #nav .nav-wraper .nav-menu {
+        order: 5;
+    }
+    /*Announce*/
+    #vin_contact {
+        width: 100%;
+        height: 300px;
+    }
+
+    article div.phone_mail {
+        height: 50%;
+        width: 100%;
+    }
+
+    article .phone_mail .phone {
+        float: left;
+        width: 50%;
+        padding-right: 40px;
+        margin: 0;
+        font-size: 22px;
+        text-align: center;
+    }
+    article .phone_mail .mail {
+        float: left;
+        width: 50%;
+        padding-left: 40px;
+        margin: 0;
+        text-align: center;
+    }
+    /* ========== FOOTER ========== */
+    #footer .footer-item {
+        margin-bottom: 50px;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    header div.contact_info h1{
+        font-size: 24px;
+    }
+    header div.infor_block{
+        width: 100%;
+    }
+    header div.infor_block h3{
+        color: #707070;
+        font-weight: 500;
+    }
+    header div.bds_ban{
+        width: 100%;
+        margin-left: 20px;
+        padding-bottom: 10px;
+    }
+   
+    header div.bds_cho_thue{
+        width: 100%;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-top: 1px solid pink;
+    }
+    header div.ban_qly{
+        width: 100%;
+        padding-left: 20px;
+        padding-top: 10px;
+        border-top: 1px solid pink ;
+    }
+    header div.bds_ban div.select {
+        display: none;
+    }
+    header div.bds_ban h3.info_title{
+        display: none;
+    }
+    header div.bds_cho_thue div.select{
+        display: none;
+    }
+    header div.ban_qly div.select{
+        display: none;
+    }
+    header div.ban_qly div.information{
+        display: none;
+    }
+
+    #vin_contact .notifi-wrap {
+        width: 85%;
+    } 
+
+    article .phone_mail .phone {
+        float: left;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        font-size: 22px;
+        text-align: center;
+    }
+    article .phone_mail .mail {
+        float: left;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        margin-top: 32px;
+        text-align: center;
+    }
+    
+
+    /* ========== FOOTER ========== */
+    #footer {
+        padding: 60px;
+    }
+    #footer .footer-item .item-list {
+        display: none;
+    }
+    #footer .footer-item .item-header.double {
+        margin-top: 50px;
+    }
+
+    /* ----- Social Media ----- */
+    #footer .social-media {
+        justify-content: center;
+    }
+    /* Register */
+    .vin-info .contact .logo-container {
+        width: 100%;
+    }
+    .vin-info .contact .contact-wrap {
+        width: 100%;
+    }
+    .vin-info .contact .contact-wrap .copyright,
+    .vin-info .contact .contact-wrap .address {
+        text-align: center;
+        margin: 40px 0;
+    }
+
+    .vin-info .contact .contact-wrap .hotline-wrap {
+        max-width: 100%;
+        justify-content: center;
+    }
+    .vin-info .register .resgister-add {
+        text-align: center;
+    }
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    header div.bds_ban{
+        width: 100%;
+        margin-left: 5px;
+        padding:30px;
+    }
+   
+    header div.bds_cho_thue{
+        width: 100%;
+        padding: 30px;
+        border-top: 1px solid pink;   
+    }
+    header div.infor_block h3{
+        color: #707070;
+    }
+    header div.ban_qly{
+        width: 100%;
+        padding: 30px;
+        border-top: 1px solid pink ;
+    }
+    header div.bds_ban div.select {
+        display: none;
+    }
+    header div.bds_ban h3.info_title{
+        display: none;
+    }
+    header div.bds_cho_thue div.select{
+        display: none;
+    }
+    header div.ban_qly div.select{
+        display: none;
+    }
+    header div.ban_qly div.information{
+        display: none;
+    }
+
+    /* ========== FOOTER ========== */
+    /* Register */
+    .vin-info .contact .contact-wrap .copyright {
+        margin-bottom: 16px;
+    }
+
+}
+
+/* PC */
+@media (min-width: 1024px) {
+
+}

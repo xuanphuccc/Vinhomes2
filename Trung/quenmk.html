@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đăng nhập | Vimhome Oninle</title>
+    <title>Đăng nhập | Vinhomes Online</title>
+    <link rel="shortcut icon" href="./assets/img/Logo_icon/logo-vinhomes.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/styleForm.css">
     <link rel="stylesheet" href="./assets/css/responsiveForm.css">
@@ -21,7 +22,7 @@
                 <div class="row nav-wraper">
                     <!-- Logo -->
                     <div class="col l-1 logo-container">
-                        <a href=""><img class="nav-logo" src="./assets/img/Logo_icon/vinhomes_logo.svg" alt=""></a>
+                        <a href="../index.html"><img class="nav-logo" src="./assets/img/Logo_icon/vinhomes_logo.svg" alt=""></a>
                     </div>
 
                     <!-- Menu -->
@@ -64,28 +65,28 @@
                             <li class="nav-item"><a href="">Quan hệ cổ đông</a>
                                 <div class="line"></div>
                             </li>
-                            <li class="nav-item"><a href="">Tin tức</a>
+                            <li class="nav-item"><a href="../Tuan/">Tin tức</a>
                                 <div class="line">
                                     <ul class="sub-menu-container">
-                                        <li class="sub-menu-item"><a href="">Ưu đãi khuyến mãi</a>
+                                        <li class="sub-menu-item"><a href="../Tuan/">Ưu đãi khuyến mãi</a>
                                             <div class="line"></div>
                                         </li>
-                                        <li class="sub-menu-item"><a href="">Sự kiện</a>
+                                        <li class="sub-menu-item"><a href="../Tuan/">Sự kiện</a>
                                             <div class="line"></div>
                                         </li>
-                                        <li class="sub-menu-item"><a href="">Thị trường</a>
+                                        <li class="sub-menu-item"><a href="../Tuan/">Thị trường</a>
                                             <div class="line"></div>
                                         </li>
-                                        <li class="sub-menu-item"><a href="">Phong cách</a>
+                                        <li class="sub-menu-item"><a href="../Tuan/">Phong cách</a>
                                             <div class="line"></div>
                                         </li>
-                                        <li class="sub-menu-item"><a href="">Tin công ty</a>
+                                        <li class="sub-menu-item"><a href="../Tuan/">Tin công ty</a>
                                             <div class="line"></div>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
-                            <li class="nav-item"><a href="">Hỗ trợ</a>
+                            <li class="nav-item"><a href="../Hung/ho_tro.html">Hỗ trợ</a>
                                 <div class="line"></div>
                             </li>
                         </ul>
@@ -140,7 +141,7 @@
                 <!-- Logo -->
                 <div class="side-bar-header">
                     <div class="side-bar-logo">
-                        <a href=""><img class="nav-logo" src="./assets/img/Logo_icon/vinhomes_logo.svg" alt=""></a>
+                        <a href="https://xuanphuccc.github.io/Vinhomes/?fbclid=IwAR2PPcRt5JYTlAWGw7wjBuXa-wuDZ67P8nxqPOZpmQBLC9l0m3dm-6kL_9c"><img class="nav-logo" src="./assets/img/Logo_icon/vinhomes_logo.svg" alt=""></a>
                     </div>
                     <div class="side-bar-exit-icon"><i class="fas fa-times"></i></div>
                 </div>
@@ -209,7 +210,7 @@
 
         <div class="slider">
             <div class="form">
-                <form action="">
+                <form action="" name="formForgotPass">
                     <h2 class="form__title">
                         Đặt lại mật khẩu
                     </h2>
@@ -217,12 +218,12 @@
                         <a style="text-align: left !important;">Vui lòng nhập địa chỉ email Quý khách đã đăng ký để đặt lại mật khẩu.</a>
                     </div>
                     <div class="form__input">
-                        <input id="input__name" class="input--relative" required type="email" placeholder="Email">
+                        <input name="email" id="input__email--qmk" class="input--relative" required type="email" placeholder="Email">
                         <i class="far fa-envelope icon--input__form"></i>
                     </div>
 
                     <div class="form__input__btn">
-                        <input type="submit" value="Gửi">
+                        <input onclick="formForgotpassValid(document.forms.formForgotPass);" type="button" value="Gửi">
                     </div>
 
 
@@ -351,7 +352,7 @@
     </div>
     <script src="./assets/javascript/vin.js"></script>
 
-    <script src="./assets/javascript/form.js"></script>
+    <script src="./assets/javascript/formForgotspass.js"></script>
 </body>
 
 </html>

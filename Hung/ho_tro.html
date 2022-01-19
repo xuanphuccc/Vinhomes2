@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin liên hệ</title>
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="ho_tro.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://kit.fontawesome.com/25a053a904.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main">
+        <!--======= NAV BAR ======= -->
+        <div id="nav">
+            <div class="grid wide nav-container">
+                
+                <div class="row nav-wraper">
+                    <!-- Logo -->
+                    <div class="col l-1 logo-container">
+                        <a href="../index.html"><img class="nav-logo" src="img/vinhomes_logo.svg" alt=""></a>
+                    </div>
+
+                    <!-- Menu -->
+                    <div class="col l-6 m-0 c-0 nav-menu-wraper">
+                        <ul class="nav-list">
+                            <li class="nav-item"><a href="">Về Vinhomes</a><div class="line"></div></li>
+                            <li class="nav-item"><a href="../Trung/vimhomebuy.html">Mua</a><div class="line"></div>
+                                <ul class="sub-menu-container">
+                                    <li class="sub-menu-item"><a href="../Trung/vimhomebuy.html">Mua trực tuyến</a><div class="line"></div></li>
+                                    <li class="sub-menu-item"><a href="../Trung/vimhomebuy.html">Dự án</a><div class="line"></div></li>
+                                    <li class="sub-menu-item"><a href="../Trung/vimhomebuy.html">BĐS nghỉ dưỡng</a><div class="line"></div></li>
+                                    <li class="sub-menu-item"><a href="../Trung/vimhomebuy.html">BĐS khác</a><div class="line"></div></li>
+                                    <li class="sub-menu-item"><a href="../Trung/vimhomebuy.html">Virtual Tour Collection</a><div class="line"></div></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a href="">Thuê</a><div class="line"></div>
+                                <ul class="sub-menu-container">
+                                    <li class="sub-menu-item"><a href="">Căn hộ</a><div class="line"></div></li>
+                                    <li class="sub-menu-item"><a href="">Văn phòng</a><div class="line"></div></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a href="#">Quan hệ cổ đông</a><div class="line"></div></li>
+                            <li class="nav-item"><a href="../Tuan/">Tin tức</a><div class="line">
+                                <ul class="sub-menu-container">
+                                    <li class="sub-menu-item"><a href="../Tuan/">Ưu đãi khuyến mãi</a><div class="line"></div></li>
+                                    <li class="sub-menu-item"><a href="../Tuan/">Sự kiện</a><div class="line"></div></li>
+                                    <li class="sub-menu-item"><a href="../Tuan/">Thị trường</a><div class="line"></div></li>
+                                    <li class="sub-menu-item"><a href="../Tuan/">Phong cách</a><div class="line"></div></li>
+                                    <li class="sub-menu-item"><a href="../Tuan/">Tin công ty</a><div class="line"></div></li>
+                                </ul>
+                            </div></li>
+                            <li class="nav-item"><a href="">Hỗ trợ</a><div class="line"></div></li>
+                        </ul>
+                    </div>
+
+                    <!-- Flag -->
+                    <div class="col l-1 nav-flag">
+                        <div class="vn">
+                            <a href=""><img src="img/vie-active.svg" alt=""></a>
+                        </div>
+                        <div class="eng">
+                            <a href=""><img src="img/flag-en.svg" alt=""></a>
+                        </div>
+                    </div>
+
+                    <!-- Chart -->
+                    <div class="col l-2 nav-chart">
+                        <div class="chart">
+                            <img src="img/chart.svg" alt="">
+                        </div>
+                        <div class="chart-text-wrap">
+                            <p class="chart-text">VHM: HOSE</p>
+                            <p class="chart-price">120.000VNĐ</p>
+                        </div>
+                    </div>
+
+                    <!-- Search and login -->
+                    <div class="col l-2 nav-search">
+                        <div class="search">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="user">
+                            <a href="../Trung/đăng nhập.html"><i class="far fa-user"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Menu icon -->
+                    <div class="col l-0 nav-menu">
+                        <div class="menu">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-side-bar">
+            <!------ Side Bar ------->
+            <div class="side-bar-bg"></div>
+            <div class="side-bar">
+                <!------- Logo ------->
+                <div class="side-bar-header">
+                    <div class="side-bar-logo"><a href=""><img class="nav-logo" src="img/vinhomes_logo.svg" alt=""></a></div>
+                    <div class="side-bar-exit-icon"><i class="fas fa-times"></i></div>
+                </div>
+
+                <!------ Chart ------>
+                <div class="side-bar-chart">
+                    <div class="chart">
+                        <img src="img/chart.svg" alt="">
+                    </div>
+                    <div class="chart-text-wrap">
+                        <p class="chart-text">VHM: HOSE</p>
+                        <p class="chart-price">120.000VNĐ</p>
+                    </div>
+                </div>
+
+                <!------ Menu ------>
+                <div class="side-bar-menu-wraper">
+                    <ul class="side-bar-list">
+                        <li class="side-bar-item"><a href="">Về Vinhomes</a></li>
+                        <li class="side-bar-item">
+                            <div class="drop-head"><p href="">Mua</p><i class="fas fa-caret-down"></i></div>
+                            <ul class="drop-container">
+                                <li class="drop-item"><a href="">Mua trực tuyến</a></li>
+                                <li class="drop-item"><a href="">Dự án</a></li>
+                                <li class="drop-item"><a href="">BĐS nghỉ dưỡng</a></li>
+                                <li class="drop-item"><a href="">BĐS khác</a></li>
+                                <li class="drop-item"><a href="">Virtual Tour Collections</a></li>
+                            </ul>
+                        </li>
+                        <li class="side-bar-item">
+                            <div class="drop-head"><p href="">Thuê</p><i class="fas fa-caret-down"></i></div>
+                            <ul class="drop-container">
+                                <li class="drop-item"><a href="">Căn hộ</a></li>
+                                <li class="drop-item"><a href="">Văn phòng</a></li>
+                            </ul>
+                        </li>
+                        <li class="side-bar-item"><a href="">Quan hệ cổ đông</a></li>
+                        <li class="side-bar-item">
+                            <div class="drop-head"><p href="">Tin tức</p><i class="fas fa-caret-down"></i></div>
+                            <ul class="drop-container">
+                                <li class="drop-item"><a href="">Ưu đãi khuyến mãi</a></li>
+                                <li class="drop-item"><a href="">Sự kiện</a></li>
+                                <li class="drop-item"><a href="">Thị trường</a></li>
+                                <li class="drop-item"><a href="">Phong cách</a></li>
+                                <li class="drop-item"><a href="">Tin công ty</a></li>
+                            </ul>
+                        </li>
+                        <li class="side-bar-item"><a href="">Hỗ trợ</a></li>
+                    </ul>
+                </div>
+            
+                <!----- Flag ------>
+                <div class="side-bar-flag">
+                    <div class="vn">
+                        <a href=""><img src="img/vie-active.svg" alt=""></a>
+                    </div>
+                    <div class="eng">
+                        <a href=""><img src="img/flag-en.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <header>
+        <div class="contact_info">
+        <h1 >THÔNG TIN LIÊN HỆ VINHOMES</h1>
+        </div>
+        <div class="infor_block">
+                <div class="bds_ban">
+                    <h3>BẤT ĐỘNG SẢN BÁN</h3>
+                    <div class="select">
+                        <select class="info_select" name="info_select_0">
+                            <option value="1743">Grand World Phú Quốc</option>
+                            <option value="132">Vinhomes New Center</option>
+                            <option value="133">Vinhomes Imperia</option>
+                            <option value="134">Vinhomes Marina</option>
+                            <option value="122">Vinhomes Star City</option>
+                            <option value="123">Vinhomes Symphony</option>
+                            <option value="121">Vinhomes Riverside</option>
+                            <option value="124">Vincom Shophouse Cẩm Phả</option>
+                            <option value="125">Vincom Shophouse Hà Giang</option>
+                            <option value="126">Vincom Shophouse Kontum</option>
+                            <option value="127">Vincom Shophouse Rạch Giá</option>
+                            <option value="128">Vincom Shophouse Thái Bình</option>
+                            <option value="129">Vincom Shophouse Thái Hoà</option>
+                            <option value="130">Vincom Shophouse Uông Bí</option>
+                            <option value="131">Vincom Shophouse Yên Bái</option>
+                            <option value="112">Grand World Phú Quốc</option>
+                            <option value="113">Vinhomes Grand Park</option>
+                            <option value="114">D’.Capitale</option>
+                            <option value="115">Vinhomes Green Villas</option>
+                            <option value="116">Vinhomes Smart City</option>
+                            <option value="117">Vinhomes West Point</option>
+                            <option value="118">Vinhomes Metropolis</option>
+                            <option value="119">Vinhomes Bắc Ninh</option>
+                            <option value="120">Vinhomes Ocean Park</option>
+                        </select>
+                  </div>
+                    <h3 class="info_title">GRAND WORLD PHÚ QUỐC</h3>
+                </div>
+                <div class="bds_cho_thue">
+                    <h3>BẤT ĐỘNG SẢN CHO THUÊ</h3>
+                    <div class="select">
+                        <select class="info_select" name="info_select_1">
+                            <option value="default">Thuê văn phòng</option>
+                                <option value="">Thuê căn hộ</option>
+                        </select>
+                        <select class="info_select" name="info_select_2">
+                            <option value="default">Chọn dự án</option>
+                            <option value="140">Vincom Đồng Khởi</option>
+                            <option value="139">Vinhomes Ocean Park (Techno Park Tower)</option>
+                            <option value="138">Vinhomes Time City  (Tower 1 - T13)</option>
+                            <option value="137">Vinhomes Time City  (Century Tower - T14)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="ban_qly">
+					<h3>BAN QUẢN LÝ BIỆT THỰ / CĂN HỘ</h3>
+                        <div class="select">
+	                        <select class="info_select" name="info_select_3">
+								<option value="206">Vinhomes Central Park</option>
+								<option value="205">Vinhomes Đồng Khởi</option>
+								<option value="204">Vinhomes Grand Park</option>
+								<option value="203">Vinhomes Golden River</option>
+								<option value="202">Vincom Bà Triệu</option>
+								<option value="201">Vinhomes Dragon Bay</option>
+								<option value="200">Vinhomes Gardenia</option>
+								<option value="199">Vinhomes Green Bay</option>
+								<option value="197">Vinhomes Hà Tĩnh</option>
+								<option value="196">Vinhomes Imperia</option>
+								<option value="195">Vinhomes Metropolis</option>
+								<option value="194">Vinhomes Nguyễn Chí Thanh</option>
+								<option value="193">Vinhomes Riverside</option>
+								<option value="191">Vinhomes Royal City</option>
+								<option value="189">Vinhomes Skylake</option>
+								<option value="187">Vinhomes Star City</option>
+								<option value="186">Vinhomes Thăng Long</option>
+								<option value="185">Vinhomes Times City</option>
+								<option value="183">Vinhomes Smart City</option>
+								<option value="181">Vinhomes Ocean Park</option>
+								<option value="179">Vinhomes West Point</option>
+								<option value="178">Vinhomes Bắc Ninh</option>
+								<option value="177">Vinhomes Marina</option>
+								<option value="176">Vinhomes New Center</option>
+								<option value="141">Vinhomes Symphony</option>
+			                </select>
+                         </div>   
+                            <div class="information">
+                                <h3>Vinhomes Central Park</h3>
+                                <div class="info_text">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    <label>Địa chỉ BQL dự án</label>
+                                    <p>Địa chỉ 1: 208 Nguyễn Hữu Cảnh, Phường 22, Quận Bình Thạnh, TP. Hồ Chí Minh. Địa chỉ 2: 720 A Điện Biên Phủ, Phường 22, Quận Bình Thạnh, TP. Hồ Chí Minh </p>
+                                </div>
+                                
+                                <div class="info_text">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                  <label class="mb-1">Điện thoại</label>
+                                  <p class="mb-0 desc address1">1900 2323 89</p>
+                                </div>
+                                <div class="info_text">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    <label class="mb-1">Email</label>
+                                    <p class="mb-0 desc address1">info@vinhomes.vn</p>
+                                </div>
+                            </div>
+                    </div>   
+            </div>
+    </div>
+    </header>  
+<article>
+    <div id="vin_contact">
+        <div class="notifi-wrap">
+            <h2>THÔNG BÁO</h2>
+            <p>Để biết thêm nhiều thông tin hữu ích, quý khách vui lòng liên hệ.</p>
+            <p>Trân trọng cảm ơn!</p>
+        </div>
+    </div>
+    <div class="phone_mail">
+        <div class="contact-wrap">
+            <div class="phone">
+                <div class="phone-wrap">
+                    <h3>Liên hệ với chúng tôi</h3>
+                    <img src="img/phone.svg" alt="vinhomes">
+                    <a href="tel:1900 23 23 89">
+                        GỌI HOTLINE - 1900 23 23 89
+                    </a>
+                </div>
+            </div>
+            <div class="mail">
+                <div class="mail-wrap">
+                    <h3>Gửi tin nhắn tới chúng tôi</h3>
+                    <img src="img/envelope2.svg" alt="vinhomes">
+                    <a href="https://vinhomes.vn/vi/thong-tin-lien-he-vinhomes#" >
+                            GỬI TIN NHẮN ĐẾN CHÚNG TÔI
+                    </a>
+                </div>
+            </div>
+        </div>
+     </div> 
+    </div>
+    
+</article>
+<!-- ============== FOOTER ============= -->
+<div class="grid wide" id="footer">
+    <div class="row footer-vinhomes">
+        <div class="col l-2 m-4 c-12 footer-item">
+            <h4 class="item-header">Về Vinhomes</h4>
+            <ul class="item-list">
+                <li><a href="">Giới thiệu</a></li>
+                <li><a href="">Khu đô thị</a></li>
+                <li><a href="">Tuyển dụng</a></li>
+            </ul>
+        </div>
+
+        <div class="col l-2 m-4 c-12 footer-item">
+            <h4 class="item-header">Bất động sản bán</h4>
+            <ul class="item-list">
+                <li><a href="">mua trực tuyến</a></li>
+                <li><a href="">Dự án</a></li>
+                <li><a href="">BĐS nghỉ dưỡng</a></li>
+                <li><a href="">BĐS khác</a></li>
+                <li><a href="">Virtual Tour Collections</a></li>
+                <li><a href="">Bản Đồ Vinhomes</a></li>
+            </ul>
+        </div>
+
+        <div class="col l-2 m-4 c-12 footer-item">
+            <h4 class="item-header">Bất động sản cho thuê</h4>
+            <ul class="item-list">
+                <li><a href="">Cho thuê căn hộ</a></li>
+            </ul>
+        </div>
+
+        <div class="col l-2 m-4 c-12 footer-item">
+            <h4 class="item-header">Quan hệ cổ đông</h4>
+            <ul class="item-list">
+                <li><a href="">Cổ phiếu Vinhomes</a></li>
+                <li><a href="">Báo cáo tài chính</a></li>
+                <li><a href="">Báo cáo thường niên</a></li>
+                <li><a href="">Lịch sự kiện đầu tư</a></li>
+            </ul>
+        </div>
+
+        <div class="col l-2 m-4 c-12 footer-item">
+            <h4 class="item-header">Tin tức</h4>
+            <ul class="item-list">
+                <li><a href="">Tin tức - Sự kiện</a></li>
+                <li><a href="">Ưu đãi - Khuyến mãi</a></li>
+            </ul>
+
+            <h4 class="item-header double">Pháp lý</h4>
+            <ul class="item-list">
+                <li><a href="">Chính sách quyền riêng tư</a></li>
+               
+            </ul>
+        </div>
+
+        <div class="col l-2 m-4 c-12 footer-item">
+            <h4 class="item-header">Hỗ trợ</h4>
+            <ul class="item-list">
+                <li><a href="">Chăm sóc khách hàng</a></li>
+                <li><a href="">Hotline bán hàng</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-------- Social Media -------->
+    <div class="row social-media">
+        <div class="col l-5 m-5 c-0 line"></div>
+        <div class="col l-2 m-2 c-4  brand-logo">
+            <div class="logo-icon fb"><i class="fab fa-facebook-f"></i></div>
+            <div class="logo-icon youtube"><i class="fab fa-youtube"></i></div>
+            <div class="logo-icon insta"><i class="fab fa-instagram"></i></div>
+        </div>
+        <div class="col l-5 m-5 c-0 line"></div>
+    </div>
+
+    <!----------- Info ----------->
+    <div class="row vin-info">
+        <div class="col l-7 contact">
+            <div class="logo-container">
+                <a href=""><img class="logo" src="./assets/img/Logo_icon/vinhomes_logo.svg" alt=""></a>
+            </div>
+            <div class="contact-wrap">
+                <p class="address">Tòa nhà văn phòng Symphony, Đường Chu Huy Mân, Khu đô thị sinh thái Vinhomes Riverside, Phường Phúc Lợi, Quận Long Biên, Thành phố Hà Nội, Việt Nam.</p>
+                <div class="hotline-wrap">
+                    <a class="hotline-left" href="tel:1900 2323 89">Tổng đài CSKH</a>
+                    <a class="hotline" href="tel:1900 2323 89">1900 2323 89</a>
+                </div>
+                <p class="copyright">© 2021. Toàn bộ bản quyền thuộc Vinhomes JSC. Một thành viên của Tập đoàn Vingroup.</p>
+            </div>
+        </div>
+
+        <!-------- Register -------->
+        <div class="col l-5 m-8 c-12 register">
+            <p class="l-0 m-0 c-12 label" for="label">Đăng ký nhận bản tin</p>
+            <form action="" class="input-register">
+                <input type="text" name="" id="" placeholder="Họ và tên" required>
+                <input type="tel" name="" id="" placeholder="Số điện thoại" required>
+                <input type="email" name="" id="" placeholder="Email" required>
+                <input class="submit" type="submit" value="Đăng ký">
+            </form>
+            <p class="resgister-add">Quý khách đăng ký nhận email quảng cáo về các chương trình ưu đãi, khuyến mại và tin tức mới nhất từ Vinhomes.</p>
+        </div>
+    </div>
+
+    <!------- Menu footer -------->
+    <div class="menu-container">
+        <div class="row">
+            <div class="col l-3 m-12 c-12 menu-item"><a href="">VinFast</a></div>
+            <div class="col l-3 m-12 c-12 menu-item"><a href="">Vinmec</a></div>
+            <div class="col l-3 m-12 c-12 menu-item"><a href="">Vinpearl</a></div>
+            <div class="col l-3 m-12 c-12 menu-item"><a href="">Vsmart</a></div>
+        </div>
+    </div>
+
+</div>
+
+</div>
+<script src="vin.js"></script>             
+
+
+</body>

@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đăng kí | Vimhome Oninle</title>
+    <title>Đăng kí | Vinhomes Online</title>
+    <link rel="shortcut icon" href="./assets/img/Logo_icon/logo-vinhomes.png" type="img/x-icon">
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/styleForm.css">
     <link rel="stylesheet" href="./assets/css/responsiveForm.css">
@@ -21,7 +22,7 @@
                 <div class="row nav-wraper">
                     <!-- Logo -->
                     <div class="col l-1 logo-container">
-                        <a href="../index.html"><img class="nav-logo" src="./assets/img/Logo_icon/vinhomes_logo.svg" alt=""></a>
+                        <a href="./vimhomebuy.html"><img class="nav-logo" src="./assets/img/Logo_icon/vinhomes_logo.svg" alt=""></a>
                     </div>
 
                     <!-- Menu -->
@@ -64,28 +65,28 @@
                             <li class="nav-item"><a href="">Quan hệ cổ đông</a>
                                 <div class="line"></div>
                             </li>
-                            <li class="nav-item"><a href="">Tin tức</a>
+                            <li class="nav-item"><a href="../Tuan/">Tin tức</a>
                                 <div class="line">
                                     <ul class="sub-menu-container">
-                                        <li class="sub-menu-item"><a href="">Ưu đãi khuyến mãi</a>
+                                        <li class="sub-menu-item"><a href="../Tuan/">Ưu đãi khuyến mãi</a>
                                             <div class="line"></div>
                                         </li>
-                                        <li class="sub-menu-item"><a href="">Sự kiện</a>
+                                        <li class="sub-menu-item"><a href="../Tuan/">Sự kiện</a>
                                             <div class="line"></div>
                                         </li>
-                                        <li class="sub-menu-item"><a href="">Thị trường</a>
+                                        <li class="sub-menu-item"><a href="../Tuan/">Thị trường</a>
                                             <div class="line"></div>
                                         </li>
-                                        <li class="sub-menu-item"><a href="">Phong cách</a>
+                                        <li class="sub-menu-item"><a href="../Tuan/">Phong cách</a>
                                             <div class="line"></div>
                                         </li>
-                                        <li class="sub-menu-item"><a href="">Tin công ty</a>
+                                        <li class="sub-menu-item"><a href="../Tuan/">Tin công ty</a>
                                             <div class="line"></div>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
-                            <li class="nav-item"><a href="">Hỗ trợ</a>
+                            <li class="nav-item"><a href="../Hung/ho_tro.html">Hỗ trợ</a>
                                 <div class="line"></div>
                             </li>
                         </ul>
@@ -209,40 +210,40 @@
 
         <div class="slider">
             <div class="form">
-                <form action="">
+                <form action="" name="formSignup">
                     <h2 class="form__title">
                         Tạo tài khoản
                     </h2>
                     <div class="form__input">
-                        <input title="abc@xyz.com" id="input__email" class="input--relative" type="email" required placeholder="Email">
+                        <input id="input__email" class="input--relative" type="email" placeholder="Email" name="email">
                         <i class="far fa-envelope icon--input__form"></i>
                     </div>
                     <div class="form__input">
-                        <input title="Mật khẩu không quá 20 kí tự" maxlength="20" id="input__password--dk" required class="input--relative" type="password" placeholder="Mật khẩu">
-                        <i class="fas fa-lock icon--input__form"></i>
+                        <input id="input__sdt" class="input--relative" type="number" placeholder="Số điện thoại" name="phone">
+                        <i class="fas fa-mobile-alt icon--input__form"></i>
                     </div>
                     <div class="form__input">
-                        <input maxlength="20" id="confirm" required class="input--relative" type="password" placeholder="Xác nhận mật khẩu">
-                        <i class="fas fa-key icon--input__form"></i>
-                    </div>
-                    <div class="form__input">
-                        <input title="Họ và tên dưới 30 ký tự" maxlength="30" id="input__name" required class="input--relative" type="text" size="2" placeholder="Họ và tên">
+                        <input id="input__name" required class="input--relative" type="text" size="2" placeholder="Tên đăng nhập" name="username">
                         <i class="far fa-user icon--input__form"></i>
                     </div>
                     <div class="form__input">
-                        <input maxlength="12" id="input__sdt" required class="input--relative" type="number" placeholder="Số điện thoại">
-                        <i class="fas fa-mobile-alt icon--input__form"></i>
+                        <input  id="input__password--dk" class="input--relative" type="password" placeholder="Mật khẩu" name="password">
+                        <i class="fas fa-lock icon--input__form"></i>
+                    </div>
+                    <div class="form__input">
+                        <input id="confirm" class="input--relative" type="password" placeholder="Xác nhận mật khẩu" name="confirm">
+                        <i class="fas fa-key icon--input__form"></i>
                     </div>
                     <div class="form__input__rules">
                         <p>Bằng việc đăng ký, bạn đã đồng ý với Vinhomes về</p>
                         <p><a href="">Điều khoản dịch vụ</a> và <a href=""> Chính sách bảo mật</a></p>
                     </div>
                     <div class="form__input__btn">
-                        <input onclick="dangKi(this)" type="submit" value="Đăng ký">
+                        <input onclick="formSignupValidate(document.forms.formSignup);" type="button" value="Đăng ký">
                     </div>
 
                     <div class="form__input__account">
-                        <a>Đã có tìa khoản? </a>
+                        <a>Đã có tài khoản? </a>
                         <a class="form__input__account--link" href="./đăng nhập.html">Đăng nhập</a>
                     </div>
                 </form>
@@ -370,7 +371,7 @@
 
     </div>
     <script src="./assets/javascript/vin.js"></script>
-    <script src="assets/javascript/form.js"></script>
+    <script src="assets/javascript/formSignup.js"></script>
 
 </body>
 

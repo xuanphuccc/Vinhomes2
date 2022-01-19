@@ -161,17 +161,20 @@
         margin-left: 20px;
         /* MARGIN-BOTTOM: 30PX; */
     }
+    .slider__news__contents {
+        /* min-height: 900px; */
+    }
     .slider__news__content__big {
         width: 100%;
-        height: 80vw;
+        height: 35vh;
         display: unset;
     }
     .slider__news__contents__small {
-        width: 100%;
+        /* width: 100%; */
     }
     .news--small {
-        height: 100%;
-        width: 100%;
+        /* height: 100%; */
+        /* width: 100%; */
     }
 }
 
@@ -237,7 +240,7 @@
         padding: 60px;
     }
     #footer .footer-item .item-list {
-        display: block;
+        display: none;
     }
     #footer .footer-item .item-header.double {
         margin-top: 50px;
